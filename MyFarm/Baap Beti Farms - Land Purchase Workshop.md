@@ -1,9 +1,9 @@
 ---
 
-
+<h1 id="🌱-baapbeti-farm-workshop-notes">🌱 BaapBeti Farm Workshop Notes</h1>
 ---
 
-<h1 id="🌱-baapbeti-farm-workshop-notes">🌱 BaapBeti Farm Workshop Notes</h1>
+
 <p><strong>Topic:</strong> Permaculture → Permanent Agriculture</p>
 <hr>
 <h2 id="things-i-want-in-my-farm">1. Things I Want in My Farm</h2>
