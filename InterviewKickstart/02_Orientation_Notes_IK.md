@@ -1,6 +1,4 @@
 # Interview Kickstart (IK) Orientation Notes
-## Document: 02_Orientation_IK
-
 ---
 
 ## 1. Breakdown of IK Program Paths
