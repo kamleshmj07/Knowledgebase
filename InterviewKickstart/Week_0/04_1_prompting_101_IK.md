@@ -1,4 +1,3 @@
-# 04_1_prompting_101_IK.md
 
 ## Prompt Components
 * **Instruction:** A specific task or instruction you want the model to perform.
