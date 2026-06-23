@@ -65,3 +65,23 @@
 |---|---|
 | English language vocabulary | ~170k tokens |
 | ChatGPT context window | ~50k tokens |
+
+---
+
+## Limitations of LLMs
+
+| Limitation | Description | Notes |
+|---|---|---|
+| **No Fresh Knowledge** | Trained on a snapshot of the world. Can't access your docs, databases, or today's events. | Snapshot of world |
+| **Hallucinations** | Confidently wrong. No built-in way to verify or say "I don't know." | Generates plausible text — not necessarily true |
+| **No Actions** | Generates text, not outcomes. Can't call an API, run a query, or update a ticket. | LLM generates → can't act |
+| **No Memory** | Every conversation starts from zero. No recall of past interactions or accumulated context. | |
+
+---
+
+## Key Insight
+
+> LLMs are powerful **text generators** — but without augmentation,
+> they are stateless, actionless, and frozen in time.
+
+These limitations are exactly what **AI Agents** are designed to solve.
