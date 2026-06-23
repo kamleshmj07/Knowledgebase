@@ -28,3 +28,5 @@ MCP Toolbox is placed under the **Act** step since MCP servers expose APIs, DBs,
 
 > With execution responsibility delegated to agents, the focus shifts to what they can automate.
 
+
+Agent = (Prompt + Tools + Memory) * LLM
