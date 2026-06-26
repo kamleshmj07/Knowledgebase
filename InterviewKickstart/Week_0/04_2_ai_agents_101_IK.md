@@ -184,11 +184,11 @@ You                         Agent                              LLM
  │                            │    + tool result:               │
  │                            │    "Paris, 14°C, rain expected" │
  │                            │                                 │
- │                            │◄──⑤ "Yes, bring an umbrella!   │
+ │                            │◄──⑤ "Yes, bring an umbrella!    │
  │                            │       Rain is expected today."  │
  │                            │                                 │
- │◄──⑥ "Yes, bring an        │                                 │
- │       umbrella! ☂️"         │                                 │
+ │◄──⑥ "Yes, bring an         │                                 │
+ │       umbrella! ☂️"        │                                 │
 ```
 
 ---
