@@ -30,3 +30,48 @@ MCP Toolbox is placed under the **Act** step since MCP servers expose APIs, DBs,
 
 
 Agent = (Prompt + Tools + Memory) * LLM
+
+
+---
+
+## Agentic Workflows vs Autonomous Agents
+
+| | **Agentic Workflows** | **Autonomous Agents** |
+|---|---|---|
+| **Control** | LLM & tool control flow is programmatically defined | The model dynamically decides what to do next |
+| **Nature** | Deterministic | Dynamic |
+
+---
+
+## Agentic Workflows
+
+```
+                        ┌─────────┐
+                   ┌──► │ Agent A │──┐
+                   │    └─────────┘  │
+                   │    ┌─────────┐  │    ┌─────────────┐
+In ──► Orchestrator├──► │ Agent B │──├──► │ Synthesizer │──► Out
+                   │    └─────────┘  │    └─────────────┘
+                   │    ┌─────────┐  │
+                   └──► │ Agent C │──┘
+                        └─────────┘
+```
+
+---
+
+## Autonomous Agents
+
+```
+                  ┌──────────────────────────┐
+                  │                          │
+In ──► [ LLM Call ] ──action──► [ Tool ] ──► Out
+              ▲                      │
+              └──────── feedback ────┘
+```
+
+---
+
+## Key Insight
+
+> In **Agentic Workflows**, the developer defines the flow.
+> In **Autonomous Agents**, the LLM decides the next step at runtime.
