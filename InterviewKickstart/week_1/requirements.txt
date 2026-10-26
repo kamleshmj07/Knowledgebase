@@ -1,0 +1,7 @@
+anthropic==0.104.1
+langchain-experimental==0.4.2
+langchain-openai==1.2.2
+openai==2.38.0
+pandas==3.0.3
+python-dotenv==1.2.2
+gdown
