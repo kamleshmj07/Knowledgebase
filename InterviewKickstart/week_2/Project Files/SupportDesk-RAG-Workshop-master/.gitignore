@@ -1,4 +1,0 @@
-.env
-rag_vectorstore/
-chroma_db/
-modules/1_embeddings/embeddings_similarity_analysis.png
